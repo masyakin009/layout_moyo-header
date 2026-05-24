@@ -9,8 +9,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-inline: 50px;
   height: 60px;
+  padding-inline: 50px;
+  background-color: #fff;
 }
 
 img {
