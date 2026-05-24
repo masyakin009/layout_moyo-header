@@ -24,6 +24,10 @@ img {
   height: 40px;
 }
 
+.moyo-logo {
+  display: flex;
+}
+
 .nav ul {
   display: flex;
   margin: 0;
