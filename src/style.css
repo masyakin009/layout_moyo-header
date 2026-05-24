@@ -90,6 +90,10 @@ li:first-child {
 li:last-child {
   margin-right: 0;
 }
+
+ul {
+  margin: 0;
+}
 .nav__link {
   display: flex;
   align-items: center;
