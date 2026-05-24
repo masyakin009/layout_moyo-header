@@ -70,30 +70,33 @@ body {
   --main-color: #00b0ff;
   --default-color: #000;
 }
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-inline: 50px;
 }
+
 ul {
   display: flex;
   list-style: none;
   padding: 0;
+  margin: 0;
 }
+
 li {
   margin-right: 15px;
 }
+
 li:first-child {
   margin-left: 0;
 }
+
 li:last-child {
   margin-right: 0;
 }
 
-ul {
-  margin: 0;
-}
 .nav__link {
   display: flex;
   align-items: center;
@@ -107,13 +110,16 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
 }
+
 .nav__link:hover {
   color: var(--main-color);
 }
+
 .nav__link.is-active {
   position: relative;
   color: var(--main-color);
 }
+
 .nav__link.is-active::after {
   content: '';
   position: absolute;
